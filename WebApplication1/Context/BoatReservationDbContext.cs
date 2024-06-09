@@ -9,6 +9,7 @@ public class BoatReservationDbContext: DbContext
     public virtual DbSet<Sailboat> Sailboats { get; set; }
     public virtual DbSet<Reservation> Reservations { get; set; }
     public virtual DbSet<Client> Clients { get; set; }
+    public virtual DbSet<ClientCategory> ClientCategory { get; set; }
 
     public BoatReservationDbContext()
     {
